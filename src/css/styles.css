@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Style pour la liste des messages */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style pour chaque élément de la liste */
+  li {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Style pour les détails du message */
+  p {
+    margin: 5px 0;
+  }
+  
+  /* Style pour le bouton de suppression */
+  button {
+    background-color: #ff5050;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff3333;
+  }
+  

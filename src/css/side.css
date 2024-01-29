@@ -1,0 +1,18 @@
+.sidebar {
+    /* Styles de base pour la barre latérale */
+    /* ... */
+  
+    /* Styles communs pour les deux états */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar.with-token {
+    /* Styles spécifiques lorsqu'un token est présent */
+    transform: translateX(0);
+  }
+  
+  .sidebar.without-token {
+    /* Styles spécifiques lorsqu'aucun token n'est présent */
+    transform: translateX(-100%);
+  }
+  
