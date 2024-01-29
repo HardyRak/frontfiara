@@ -24,6 +24,10 @@ import FavorieComponent from './components/FavorieComponent'
 import LoginComponent from './components/LoginComponent';
 import AnnonceComponent from './components/FavorieComponent';
 import Component from './components/AnnonceComponent';
+import ListeCategorie from './components/ListeCategoire';
+import AjoutCategorie from './components/AjoutCategorie';
+import AjoutMoteur from './components/AjoutMoteur';
+import ListeMoteur from './components/ListMoteur';
 function App() {
   return (
     <>
@@ -72,6 +76,7 @@ function App() {
 
         <Route path="/AddAnnonceComponent" element={<AddAnnonceComponent />} />
 
+        <Route path="/listCategorie" element={<ListeCategorie></ListeCategorie>} ></Route>
 
         <Route path="/FavorieComponent" element={<FavorieComponent />} />
 
@@ -79,6 +84,10 @@ function App() {
 
         <Route path="/Hitorique" element={<History />} />
 
+        <Route path='/ajoutCategorie' element={<AjoutCategorie></AjoutCategorie>} ></Route>
+
+        <Route path='/ajoutMoteur' element={<AjoutMoteur></AjoutMoteur>}></Route>
+        <Route path='/listMoteur' element={<ListeMoteur></ListeMoteur>}></Route>
         </Routes>
         
       </BrowserRouter>

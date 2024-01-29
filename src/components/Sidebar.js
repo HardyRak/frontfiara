@@ -83,6 +83,27 @@ const Sidebar = () => {
                 Liste des utilisateur
               </a>
             </li>
+            <li>
+              <a href={`${API_URL_lien}/listCategorie`} style={styles.link}>
+                Liste des categorie
+              </a>
+            </li>
+            <li>
+              <a href={`${API_URL_lien}/ajoutCategorie`} style={styles.link}>
+                Ajout categorie
+              </a>
+            </li>
+            <li>
+              <a href={`${API_URL_lien}/listMoteur`} style={styles.link}>
+                Liste des Moteurs
+              </a>
+            </li>
+            <li>
+              <a href={`${API_URL_lien}/ajoutMoteur`} style={styles.link}>
+                Ajout categorie
+              </a>
+            </li>
+            
           </>
         )}
       </ul>
