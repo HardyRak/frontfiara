@@ -123,6 +123,8 @@ const styles = {
     background: '#333',
     color: '#fff',
     textAlign: 'center',
+    overflow: 'auto',
+    maxHeight: '100vh', 
   },
   heading: {
     marginBottom: '20px',
