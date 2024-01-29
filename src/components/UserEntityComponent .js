@@ -153,7 +153,7 @@ const styles = {
   },
   heading: {
     textAlign: 'center',
-    color: '#fff',
+    color: 'black',
   },
   form: {
     display: 'flex',
